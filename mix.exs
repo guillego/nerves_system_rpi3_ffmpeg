@@ -1,8 +1,8 @@
-defmodule NervesSystemRpi3.MixProject do
+defmodule NervesSystemRpi3Ffmpeg.MixProject do
   use Mix.Project
 
-  @github_organization "nerves-project"
-  @app :nerves_system_rpi3
+  @github_organization "guillego"
+  @app :nerves_system_rpi3_ffmpeg
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
